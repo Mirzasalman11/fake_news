@@ -36,8 +36,8 @@ Open a command prompt or terminal and navigate to the directory where the script
 Run the script with the -value argument followed by the news article text you want to classify.
 
 ## For example:
-    ```bash
-      python main.py -value "House Dem Aide: We Didn’t Even See Comey’s Letter Until Jason Chaffetz Tweeted It"
+      ```
+         python main.py -value "House Dem Aide: We Didn’t Even See Comey’s Letter Until Jason Chaffetz Tweeted It"
 
 ## Model Training
 The project uses a natural language processing model for classifying news articles. The pre-trained model is saved as 'nlppr.joblib', and the TF-IDF vectorizer is saved as 'tfidf_vectorizer.pkl'.
@@ -52,6 +52,8 @@ Explore more advanced natural language processing techniques.
 Fine-tune hyperparameters for better model performance.
 Gather more labeled data for improved accuracy.
 ## References
-`Author: [Your Name]
-`Contact: [Your Email]
+
+- Author: Mirza Salman
+- Contact: salmansaluu661@gmail.com
+
 Feel free to customize this README to include any additional information you want to provide about the project.
