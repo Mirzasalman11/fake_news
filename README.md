@@ -27,13 +27,13 @@ This Python script is designed to classify news articles as reliable or unreliab
    source venv/bin/activate # On Windows, use: venv\Scripts\activate
 
 ## Usage
-Clone this repository to your local machine.
+` Clone this repository to your local machine.
 
-Ensure you have the pre-trained model ('nlppr.joblib') and TF-IDF vectorizer ('tfidf_vectorizer.pkl') in the same directory as the script ('main.py').
+`Ensure you have the pre-trained model ('nlppr.joblib') and TF-IDF vectorizer ('tfidf_vectorizer.pkl') in the same directory as the script ('main.py').
 
-Open a command prompt or terminal and navigate to the directory where the script is located.
+`Open a command prompt or terminal and navigate to the directory where the script is located.
 
-Run the script with the -value argument followed by the news article text you want to classify.
+`Run the script with the -value argument followed by the news article text you want to classify.
 
 ## For example:
       ```
@@ -48,9 +48,11 @@ The project provides predictions for the reliability of news articles based on t
 ## Future Improvements
 There are several ways to improve the model and the project:
 
-Explore more advanced natural language processing techniques.
-Fine-tune hyperparameters for better model performance.
-Gather more labeled data for improved accuracy.
+-Explore more advanced natural language processing techniques.
+
+-Fine-tune hyperparameters for better model performance.
+
+-Gather more labeled data for improved accuracy.
 ## References
 
 - Author: Mirza Salman
